@@ -1,9 +1,26 @@
-.body{
-    width: 400px;
-    height: 400px;
-    border: 2px solid green;
-    margin: 10px;
-    background-image: url("img/fundo.jpg");
-    background-repeat:no-repeat;
-    background-position:center;
+body {
+    background-image: url('./img/fundo.jpg');
+}
+h1 {
+  color: white;
+  text-align: center; 
+}
+h2 {
+  color: white;
+  text-align: center; 
+}
+p {
+  color: white;
+  text-align: center; 
+}
+datalist{
+  
+}
+input{
+
+}
+button {
+  background-color:red;
+  color:white;
+
 }

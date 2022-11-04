@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/icon.png">
-    <link rel="stylesheet" href="style.css"/>
-    <title>Clone</title> 
+    <link rel="stylesheet" href="style.css" />
+    <title>Clone</title>
 </head>
+
 <body>
-    <link rel="" href="./img/nome.png">
+    <div class="img">
+        <img src="./img/nome.png" /></a>
+    </div>
+    <input type="text" id="inputOpcao"  list="Selecionar idioma" placeholder="Selecionar idioma" />
+    <datalist id="Selecionar idioma">
+        <option>English</option>
+        <option>Português</option>
+    </datalist>
 
-    
+    <button onclick="funcaoDoClick()" id="btnSubmit">Sign in</button>
 
-
-    <script src="scripts.js"></script>  
+    <h1>Unlimited movies, TV shows, and more.</h1>
+    <h2>Watch anywhere. Cancel anytime.</h2>
+    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+    <br>
+    <input id="email" type="email" name="email" placeholder="Email address">
+    <button type="submit">Get Started > </button>
+    <script src="scripts.js"></script>
 </body>
+
 </html>
