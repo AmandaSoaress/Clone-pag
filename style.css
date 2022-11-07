@@ -63,7 +63,6 @@ h1 {
   text-align: center;
   font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
   padding: 50px 10%;
-  margin: 0 0 0.4em;
   font-weight: bold;
 
 }
@@ -97,6 +96,7 @@ h2-section {
 p {
   color: white;
   text-align: center;
+
 }
 datalist {
 }
@@ -105,9 +105,12 @@ input {
 button {
   background-color: red;
   color: white;
+  cusor:pointer;
 }
 button#menu {
   border-radius: 40%;
-
+  padding: 5px 8px;
   font-weight: 800;
+  margin: 2em;
+
 }
