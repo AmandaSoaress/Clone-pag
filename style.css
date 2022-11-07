@@ -3,6 +3,10 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #4f4045;
 }
+section {
+  color: white;
+  padding-top: 4px;
+}
 
 .div#menu {
   text-size-adjust: 100%;
@@ -11,6 +15,42 @@ body {
   width: 100px;
   margin: 20%;
   padding: 20%;
+}
+div.three {
+  background-color: black;
+  padding: 32px;
+  padding-top: 24px;
+  padding: 70px 45px;
+}
+div.four {
+  background-color: black;
+  padding: 32px;
+  padding-top: 24px;
+  padding: 70px 45px;
+}
+div.five {
+  background-color: black;
+  padding: 32px;
+  padding-top: 24px;
+  padding: 70px 45px;
+}
+div.six {
+  background-color: black;
+  padding: 32px;
+  padding-top: 24px;
+  padding: 70px 45px;
+}
+div.questions {
+  background-color: black;
+  padding: 32px;
+  padding-top: 24px;
+  padding: 70px 45px;
+}
+div.end {
+  background-color: black;
+  padding: 32px;
+  padding-top: 24px;
+  padding: 70px 45px;
 }
 .header {
   background-image: url('./img/fundo.jpg');
@@ -22,34 +62,37 @@ h1 {
   color: white;
   text-align: center;
   font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 50px 10%;
+  margin: 0 0 0.4em;
+  font-weight: bold;
+
 }
 h1-menu {
   color: back;
   text-align: center;
   font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.3rem;
+  padding: 50px 10%;
 }
-h1-three {
-  color:white;
+h1-section {
+  color: white;
   font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.3rem;
   padding: 50px 10%;
-
-
 }
 
+h2 {
+  color: white;
+  text-align: center;
+}
 h2-menu {
   color: blue;
   font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-h2-three {
+h2-section {
   color: white;
   font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.3rem;
-}
-h2 {
-  color: white;
-  text-align: center;
 }
 p {
   color: white;
@@ -67,18 +110,4 @@ button#menu {
   border-radius: 40%;
 
   font-weight: 800;
-}
-div.three {
-  background-color: black;
-  padding: 32px;
-  padding-top: 24px;
-  padding: 70px 45px;
-
-
-}
-section {
-  color: white;
-  padding-top: 4px;
-
- 
 }
