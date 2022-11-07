@@ -1,26 +1,84 @@
 body {
-    background-image: url('./img/fundo.jpg');
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #4f4045;
 }
+
+.div#menu {
+  text-size-adjust: 100%;
+  background-color: white;
+  height: 100%;
+  width: 100px;
+  margin: 20%;
+  padding: 20%;
+}
+.header {
+  background-image: url('./img/fundo.jpg');
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 h1 {
   color: white;
-  text-align: center; 
+  text-align: center;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+h1-menu {
+  color: back;
+  text-align: center;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
+}
+h1-three {
+  color:white;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
+  padding: 50px 10%;
+
+
+}
+
+h2-menu {
+  color: blue;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+h2-three {
+  color: white;
+  font-family: Netflix Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
 }
 h2 {
   color: white;
-  text-align: center; 
+  text-align: center;
 }
 p {
   color: white;
-  text-align: center; 
+  text-align: center;
 }
-datalist{
-  
+datalist {
 }
-input{
-
+input {
 }
 button {
-  background-color:red;
-  color:white;
+  background-color: red;
+  color: white;
+}
+button#menu {
+  border-radius: 40%;
 
+  font-weight: 800;
+}
+div.three {
+  background-color: black;
+  padding: 32px;
+  padding-top: 24px;
+  padding: 70px 45px;
+
+
+}
+section {
+  color: white;
+  padding-top: 4px;
+
+ 
 }
