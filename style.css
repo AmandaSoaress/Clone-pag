@@ -1,3 +1,7 @@
+* {
+  letter-spacing: 0 !important;
+}
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -8,13 +12,13 @@ section {
   padding-top: 4px;
 }
 
-.div#menu {
-  text-size-adjust: 100%;
-  background-color: white;
-  height: 100%;
-  width: 100px;
-  margin: 20%;
-  padding: 20%;
+div.menu {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  min-height: 4rem;
 }
 div.three {
   background-color: black;
@@ -52,6 +56,24 @@ div.end {
   padding-top: 24px;
   padding: 70px 45px;
 }
+div.segundaria{z
+  display: block;
+  height: 4rem;
+  background-color: transparent;
+    bottom: 0;
+    height: 5rem;
+    left: 0;
+    margin: 0 auto;
+    max-width: 1920px;
+    padding-top: 20px;
+    position: relative;
+    right: 0;
+    top: 0;
+    transition: background-color .5s;
+    width: 100%;
+    z-index: 10;
+}
+
 .header {
   background-image: url('./img/fundo.jpg');
   background-repeat: no-repeat;
@@ -72,6 +94,7 @@ h1-menu {
     sans-serif;
   font-size: 16px;
   font-size: 1.1rem;
+
 }
 h1-section {
   margin: 0 auto;
@@ -102,19 +125,25 @@ h2 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+
 }
 
 h2-menu {
   align-items: center;
-  color: inherit;
+  color: blue;
+  border-color: #fff;
   display: flex;
   font-size: 1rem;
   font-weight: 700;
   justify-content: center;
-  border: 0;
-  color: #0071eb;
-  margin-left: 0;
-  text-decoration: none;
+  display: inline-block;
+  min-height: 3px;
+  min-width: 98px;
+  padding: 12px 1em;
+  width: auto;
+  margin: 0.em auto;
+  cursor: pointer;
+
 }
 h2-section {
   color: white;
@@ -122,18 +151,61 @@ h2-section {
   font-size: 1.3rem;
 }
 p {
+  color: white;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
   font-size: 1.2rem;
   max-width: none;
   padding-bottom: 20px;
+  text-align: center;
 }
 datalist {
+  line-height: 1.3em;
+  overflow: hidden;
+  padding: 0.5rem 1.375rem;
+  padding-left: 1.375rem;
+  padding-right: 1.375rem;
+  white-space: nowrap;
+  text-indent: 0;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid #aaa;
+  color: #fff;
+  font-size: 0.875rem;
+  text-indent: 2px;
+
 }
-input {
+input#inputOpcao{
+
+}
+input.email {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #8c8c8c;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #000;
+  display: block;
+  font-size: 16px;
+  height: 44px;
+  padding: 10px 11px;
+  width: 100%;
+  line-height: normal;
 }
 button {
   background-color: red;
-  color: white;
-  cusor: pointer;
+  background-color: #e50914;
+  float: right;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  padding: 7px 17px;
+  float: none;
+  margin-top: 0;
+  white-space: nowrap;
+  border-radius: 3px;
+  color: #fff;
+  margin-top: 0.5rem;
+  cursor: pointer;
 }
 button#menu {
   background-color: #e50914;
@@ -144,8 +216,9 @@ button#menu {
   margin: 0.5rem 1rem;
   padding: 0.2rem 0.5rem;
   text-transform: uppercase;
+
 }
-.section.li {
+.section#li {
   color: gray;
   padding-top: 4px;
 }
