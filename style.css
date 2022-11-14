@@ -56,21 +56,15 @@ div.questions {
 }
 div.end {
   background-color: black;
-  padding: 32px;
-  padding-top: 24px;
   padding: 70px 45px;
+  font-size: 1em;
+  -webkit-text-size-adjust: 100%;
+
 }
 
 div.segundaria {
-  background: rgba(0, 0, 0, 0.4);
-  background-image: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.8) 0,
-    transparent 60%,
-    rgba(0, 0, 0, 0.8)
-  );
 }
-div.terciario{
+div.terciario {
   background-color: transparent;
   bottom: 0;
   height: 5rem;
@@ -87,9 +81,10 @@ div.terciario{
 }
 
 .header {
-  background-image: url('./img/fundo.jpg');
+  background-img: url('./img/fundo.jpg');
   background-repeat: no-repeat;
   height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 h1 {
@@ -157,6 +152,28 @@ h2-section {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.3rem;
 }
+h2-end{
+  direction: ltr;
+  font-family: 'Open Sans', sans-serif;
+  color: #737373;
+}
+ul{
+  color: #737373;
+  direction: ltr;
+  padding-top: 4px;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration-line: underline;
+  list-style: none;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+
+}
+
 p {
   color: white;
   font-family: 'Open Sans', sans-serif;
@@ -186,6 +203,10 @@ input#inputOpcao {
   padding-right: 1.375rem;
   white-space: nowrap;
   line-height: 1.3em;
+  line-height: 1.3em;
+  overflow: hidden;
+  background-color:black;
+  color-text:gray;
 }
 input.email {
   -webkit-appearance: none;
@@ -223,16 +244,10 @@ button#menu {
   background-color: #e50914;
   border-radius: 17px;
   color: #fff;
-  font-size: 0.8rem;
   font-weight: 600;
   margin: 0.5rem 1rem;
   padding: 0.2rem 0.5rem;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
   font-size: large;
-}
-.section#li {
-  color: gray;
-  padding-top: 4px;
-  font-family: 'Open Sans', sans-serif;
 }
