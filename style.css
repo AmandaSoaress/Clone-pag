@@ -27,6 +27,7 @@ div.three {
   padding: 32px;
   padding-top: 24px;
   padding: 70px 45px;
+
 }
 div.four {
   background-color: black;
@@ -57,7 +58,6 @@ div.end {
   padding: 70px 45px;
   font-size: 1em;
   -webkit-text-size-adjust: 100%;
-
 }
 
 div.segundaria {
@@ -66,39 +66,103 @@ div.segundaria {
   max-width: 100%;
   transition: background-color 0.5s;
   z-index: 10;
-  
-
+  align-items: flex-start;
 }
 div.terciario {
+  font-family: 'Open Sans', sans-serif;
   background-color: transparent;
   margin: 15px 0px 16px;
   max-width: 100%;
   transition: background-color 0.5s;
   z-index: 10;
+  align-items: flex-start;
+  display: flex;
+  flex-flow: row nowrap;
+  height: auto;
+  justify-content: flex-start;
+  padding-top: 0.5rem;
+  position: relative;
+}
+div.confEmail{
+ 
 }
 
+input#email {
+  float: right;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #8c8c8c;
+  border-radius: 2px;
+  box-sizing: border-box;
+  color: #000;
+  display: block;
+  font-size: 16px;
+  height: 44px;
+  padding: 10px 11px;
+  line-height: normal;
+  font-family: 'Open Sans', sans-serif;
+  flex: 1 0 auto;
+  vertical-align: top;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  height: 60px !important;
+  min-width: 450px;
+  margin-right: 36%;
+}
+
+button#submit {
+  font-family: 'Open Sans', sans-serif;
+  border-left: 1px solid #333;
+  background: #f40612;
+  color: #fff;
+  box-shadow: 0 1px 0 rgb(0 0 0 / 45%);
+  min-height: 60px;
+  padding: 0px 2em;
+  align-items: center;
+  display: inline-flex;
+  flex-direction: row;
+  margin: 0.25em auto;
+  width: auto;
+  min-width: 74px;
+  position: relative;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+  box-sizing: border-box;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-appearance: button;
+  margin-left: 65%;
+  margin-top: -6%;
+  text-align: center;
+  font-size: 22px;
+  
+  
+}
 .header {
   background-repeat: no-repeat;
   height: 100vh;
-  background: rgba(0,0,0,.4);
-  background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8)),  url('./img/fundo.jpg');
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0,
+      transparent 60%,
+      rgba(0, 0, 0, 0.8)
+    ),
+    url('./img/fundo.jpg');
 }
 
 h1 {
   color: white;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  padding: 50px 10%;
+  padding: 0px 11%;
   font-weight: bold;
-  margin: 0 auto;
-  max-width: 640px;
+  max-width: 806px;
   font-size: 3.125rem;
   line-height: 1.1;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
- 
+  margin-left: 13%;
 }
 h1-menu {
   color: #333;
@@ -123,16 +187,18 @@ h1-section {
 h2 {
   color: #fff;
   direction: ltr;
+  font-size: 1.625rem;
+  margin: 1rem auto;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
   text-align: center;
   display: block;
-  font-size: 1.5em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  font-weight: bold;
+  -webkit-text-size-adjust: 100%;
+  margin-left: 7%;
+  margin-top: -1%;
 }
 
 h2-menu {
@@ -156,13 +222,14 @@ h2-section {
   font-size: 1.3rem;
 }
 
-h3, h3 > a {
+h3,
+h3 > a {
   direction: ltr;
   font-family: 'Open Sans', sans-serif;
   color: #737373;
 }
 
-li{
+li {
   color: #737373;
   direction: ltr;
   padding-top: 4px;
@@ -178,17 +245,17 @@ li{
 li:hover {
   text-decoration-line: underline;
   cursor: pointer;
-
 }
-
 
 p {
   color: white;
   font-family: 'Open Sans', sans-serif;
-  font-size: 1.2rem;
-  max-width: none;
-  padding-bottom: 20px;
+  padding: 0 10%;
   text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: unset;
+  margin-left: 7%;
 }
 datalist {
   line-height: 1.3em;
@@ -207,71 +274,53 @@ datalist {
 }
 
 input#inputIdiomaSuperior {
-  background-color:black;
-  color: gray;
-  line-height: 1.3em;
+  background-color: black;
+  color: white;
+  line-height: 2.3em;
   overflow: hidden;
   padding-left: 1.375rem;
   padding-right: 1.375rem;
   white-space: nowrap;
   font-family: 'Open Sans', sans-serif;
   float: right;
+  margin-top: inherit;
+  justify-content: space-between;
+  margin-left: 45%;
+  margin-top: 61px;
 }
 
 input#inputOpcao {
   font-family: 'Open Sans', sans-serif;
   overflow: hidden;
-  background-color:black;
-  color-text:gray;
+  background-color: black;
+  color-text: gray;
   float: right;
 }
 
-input.email {
-  float: right;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border: 1px solid #8c8c8c;
-  border-radius: 2px;
-  box-sizing: border-box;
-  color: #000;
-  display: block;
-  font-size: 16px;
-  height: 44px;
-  padding: 10px 11px;
-  width: 100%;
-  line-height: normal;
-  font-family: 'Open Sans', sans-serif;
-  flex: 1 0 auto;
-  text-align: right;
-  vertical-align: top;
-}
-button {
-  background-color: red;
-  float: right;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: normal;
-  padding: 7px 17px;
-  margin-top: 0;
-  white-space: nowrap;
-  border-radius: 3px;
-  color: #fff;
-  margin-top: 0.5rem;
-  cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  
-}
+
 button#menu {
   background-color: #e50914;
   border-radius: 17px;
   color: #fff;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 600;
   margin: 0.5rem 1rem;
   padding: 0.2rem 0.5rem;
   text-transform: uppercase;
 }
-
-
+button#btnSubmit {
+  background-color: #e50914;
+  float: right;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  padding: 7px 17px;
+  margin-top: 61px;
+  white-space: nowrap;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 30px;
+}
 
