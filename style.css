@@ -354,6 +354,7 @@ input#inputOpcao {
   background-color: black;
   color-text: gray;
   float: right;
+  margin-right: 84%;
 }
 
 
@@ -383,21 +384,14 @@ button#btnSubmit {
   margin-left: 30px;
 }
 image.img1{
-  position: relative;
-  z-index: 2;
-  border: 0;
-  height: auto;
   max-width: 100%;
-  margin-top: -139px;
-  margin-width: 1%;
+  margin-left: 47%;
+  margin-top: -13%;
+  background: fixed;
 }
 image.img2{
-  position: relative;
-  z-index: 2;
-  border: 0;
-  height: auto;
   max-width: 100%;
-  margin-top: -13%;
-  margin-left: 1%
+  margin-left: -3%;
+  margin-top: -22%;
 }
 
