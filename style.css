@@ -385,9 +385,12 @@ button#btnSubmit {
 }
 image.img1{
   max-width: 100%;
-  margin-left: 47%;
-  margin-top: -13%;
-  background: fixed;
+  margin-left: 50%;
+  margin-top: -11%;
+  position: relative;
+  border: 0;
+  height: auto;
+  max-width: 100%;
 }
 image.img2{
   max-width: 100%;
