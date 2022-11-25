@@ -182,17 +182,17 @@ h1-section {
 }
 h1-esquerda{
   font-family: 'Open Sans', sans-serif;
-   font-size: 3.125rem;
   line-height: 1.1;
+  font-size: 50px;
   margin-bottom: 0.5rem;
-  margin: 0 0 0.4em;
   font-weight: 500;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
-  margin-inline-start: 0px;
+  margin-inline-start: 111px;
   margin-inline-end: 0px;
   color: #fff;
   -webkit-text-size-adjust: 100%;
+  direction: ltr;
 }
 h1-direita{
   font-family: 'Open Sans', sans-serif;
@@ -214,22 +214,21 @@ h1-direita{
 h2-esquerda{
   font-family: 'Open Sans', sans-serif;
   color: #fff;
-  font-size: 1.625rem;
+  font-size: 27px;
   font-weight: 400;
   margin: 0.75em 0 0.25em;
   display: block;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
-  margin-inline-start: 0px;
+  margin-inline-start: 105px;;
   margin-inline-end: 0px;
   direction: ltr;
-  font-size: 16px;
   -webkit-text-size-adjust: 100%;
 }
 h2-direita{
   font-family: 'Open Sans', sans-serif;
   color: #fff;
-  font-size: 1.625rem;
+  font-size: 27px;
   font-weight: 400;
   margin: 0.75em 0 0.25em;
   display: block;
@@ -238,7 +237,6 @@ h2-direita{
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   direction: ltr;
-  font-size: 16px;
   -webkit-text-size-adjust: 100%;
   margin-left: 53%;
 }
@@ -383,7 +381,7 @@ button#btnSubmit {
   font-family: 'Open Sans', sans-serif;
   margin-left: 30px;
 }
-image.img1{
+.img1 {
   max-width: 100%;
   margin-left: 50%;
   margin-top: -11%;
@@ -392,9 +390,9 @@ image.img1{
   height: auto;
   max-width: 100%;
 }
-image.img2{
+.img2{
   max-width: 100%;
   margin-left: -3%;
-  margin-top: -22%;
+  margin-top: -1%;
 }
 
