@@ -58,7 +58,7 @@ div.end {
   -webkit-text-size-adjust: 100%;
 }
 
-div.segundaria {
+div.navbar {
   background-color: transparent;
   margin: 15px 0px 16px;
   max-width: 100%;
@@ -66,7 +66,7 @@ div.segundaria {
   z-index: 10;
   align-items: flex-start;
 }
-div.terciario {
+div.navbar-container {
   font-family: 'Open Sans', sans-serif;
   background-color: transparent;
   margin: 15px 0px 16px;
@@ -132,8 +132,6 @@ button#submit {
   margin-top: -6%;
   text-align: center;
   font-size: 22px;
-  
-  
 }
 .header {
   background-repeat: no-repeat;
@@ -192,7 +190,7 @@ h1-esquerda{
   -webkit-text-size-adjust: 100%;
   direction: ltr;
 }
-h1-direita{
+h1-direita {
   font-family: 'Open Sans', sans-serif;
   color: #fff;
   font-size: 3.125rem;
@@ -434,4 +432,31 @@ button#btnSubmit {
 .questions p {
   margin: 20px 0px;
   padding: 0px
+}
+
+.end h3 {
+  margin-left:5%;
+}
+
+.end h3, .end a {
+  color: rgb(179 179 179);
+}
+
+div.lista-menu ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+div.lista-menu li{
+  color: rgb(179 179 179);
+
+  font-size: 14px;
+  height: 50px;
+  box-sizing: border-box;
+  width: 33%;
+  text-align: left;
+  margin: 0 0 10px 0;
+  height: auto;
 }
