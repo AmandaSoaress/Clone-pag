@@ -84,8 +84,6 @@ div.navbar-container {
 
 input#email {
   float: right;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
   border: 1px solid #8c8c8c;
   border-radius: 2px;
@@ -93,15 +91,13 @@ input#email {
   color: #000;
   display: block;
   font-size: 16px;
-  height: 44px;
   padding: 10px 11px;
   line-height: normal;
   font-family: 'Open Sans', sans-serif;
-  flex: 1 0 auto;
   vertical-align: top;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
-  height: 60px !important;
+  height: 60px;
   min-width: 450px;
   margin-right: 36%;
 }
@@ -347,7 +343,6 @@ input#inputOpcao {
   overflow: hidden;
   background-color: black;
   color-text: gray;
-  float: right;
   margin-right: 84%;
 }
 
@@ -457,4 +452,57 @@ div.lista-menu li{
   text-align: left;
   margin: 0 0 10px 0;
   height: auto;
+}
+@media  (max-width: 800px) {
+
+  h1 {
+    font-size: 150%;
+    margin: auto;
+  }
+
+  h2 {
+    font-size: 90%;
+    margin: 1rem;
+  }
+  h1-direita{
+    font-size: 150%;
+    margin: auto;
+  }
+  h1-esquerda{
+    font-size: 150%;
+    margin: auto;
+  }
+
+  h2-direita{
+    font-size: 90%;
+    margin: 1rem;
+  }
+  h2-esquerda{
+    font-size: 90%;
+    margin: 1rem;
+  }
+
+input#email {
+  margin-top: 96px;
+  margin-right: 33%;
+  padding: 10px;
+  height: 57px;
+  min-width: 22px;
+}
+button#submit{
+  margin-left: 70%;
+    margin-top: -32%;
+    font-size: 14px;
+    margin-right: 104px;
+    padding: 7px 17px;
+}
+input#inputIdiomaSuperior {
+  margin-left: -64px;
+  height: 29px;
+}
+img{
+  margin-left: -42px;
+    margin-top: -13px;
+    height: 87px;
+}
 }
