@@ -19,7 +19,7 @@ div.menu {
   background-color: #fff;
   display: flex;
   justify-content: center;
-  margin: 0px 0px 16px;
+ margin: 0px 0px 16px;
   margin-top: 15px;
 }
 div.three {
@@ -27,7 +27,6 @@ div.three {
   padding: 32px;
   padding-top: 24px;
   padding: 70px 45px;
-
 }
 div.four {
   background-color: black;
@@ -70,7 +69,7 @@ div.navbar-container {
   font-family: 'Open Sans', sans-serif;
   background-color: transparent;
   margin: 15px 0px 16px;
-  max-width: 100%;
+ max-width: 100%;
   transition: background-color 0.5s;
   z-index: 10;
   align-items: flex-start;
@@ -99,7 +98,7 @@ input#email {
   border-top-right-radius: 0;
   height: 60px;
   min-width: 450px;
-  margin-right: 36%;
+
 }
 
 button#submit {
@@ -125,7 +124,7 @@ button#submit {
   vertical-align: middle;
   -webkit-appearance: button;
   margin-left: 65%;
-  margin-top: -6%;
+  rgin-top: -6%;
   text-align: center;
   font-size: 22px;
 }
@@ -172,14 +171,14 @@ h1-section {
   font-size: 1.625rem;
   font-weight: 400;
 }
-h1-esquerda{
+h1-esquerda {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.1;
   font-size: 50px;
   margin-bottom: 0.5rem;
   font-weight: 500;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
+
+
   margin-inline-start: 111px;
   margin-inline-end: 0px;
   color: #fff;
@@ -203,7 +202,7 @@ h1-direita {
   -webkit-text-size-adjust: 100%;
   margin-left: 53%;
 }
-h2-esquerda{
+h2-esquerda {
   font-family: 'Open Sans', sans-serif;
   color: #fff;
   font-size: 27px;
@@ -211,13 +210,12 @@ h2-esquerda{
   margin: 0.75em 0 0.25em;
   display: block;
   margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 105px;;
+  margin-inline-start: 105px;
   margin-inline-end: 0px;
   direction: ltr;
   -webkit-text-size-adjust: 100%;
 }
-h2-direita{
+h2-direita {
   font-family: 'Open Sans', sans-serif;
   color: #fff;
   font-size: 27px;
@@ -332,7 +330,7 @@ input#inputIdiomaSuperior {
   white-space: nowrap;
   font-family: 'Open Sans', sans-serif;
   float: right;
-  margin-top: inherit;
+  rgin-top: inherit;
   justify-content: space-between;
   margin-left: 45%;
   margin-top: 61px;
@@ -343,9 +341,8 @@ input#inputOpcao {
   overflow: hidden;
   background-color: black;
   color-text: gray;
-  margin-right: 84%;
-}
 
+}
 
 button#menu {
   background-color: #e50914;
@@ -354,7 +351,7 @@ button#menu {
   font-size: 0.8rem;
   font-weight: 600;
   margin: 0.5rem 1rem;
-  padding: 0.2rem 0.5rem;
+ padding: 0.2rem 0.5rem;
   text-transform: uppercase;
 }
 button#btnSubmit {
@@ -374,15 +371,15 @@ button#btnSubmit {
 }
 .img1 {
   margin-left: 40%;
-  /* margin-top: -11%; */
+   rgin-top: -11%; 
   position: relative;
   border: 0;
   width: 61%;
 }
-.img2{
+.img2 {
   max-width: 100%;
   margin-left: -3%;
-  margin-top: -1%;
+  rgin-top: -1%;
 }
 .collapsible {
   background-color: #777;
@@ -396,7 +393,8 @@ button#btnSubmit {
   font-size: 15px;
 }
 
-.active, .collapsible:hover {
+.active,
+.collapsible:hover {
   background-color: #555;
 }
 
@@ -409,7 +407,7 @@ button#btnSubmit {
 }
 
 .active:after {
-  content: "\2212";
+  content: '\2212';
 }
 
 .content {
@@ -421,17 +419,17 @@ button#btnSubmit {
   border-top: solid black 1px;
 }
 
-
 .questions p {
-  margin: 20px 0px;
-  padding: 0px
+  //margin: 20px 0px;
+  padding: 0px;
 }
 
 .end h3 {
-  margin-left:5%;
+  rgin-left: 5%;
 }
 
-.end h3, .end a {
+.end h3,
+.end a {
   color: rgb(179 179 179);
 }
 
@@ -442,7 +440,7 @@ div.lista-menu ul {
   list-style: none;
 }
 
-div.lista-menu li{
+div.lista-menu li {
   color: rgb(179 179 179);
 
   font-size: 14px;
@@ -453,8 +451,9 @@ div.lista-menu li{
   margin: 0 0 10px 0;
   height: auto;
 }
-@media  (max-width: 800px) {
+@media (max-width: 700px) {
 
+ 
   h1 {
     font-size: 150%;
     margin: auto;
@@ -464,45 +463,45 @@ div.lista-menu li{
     font-size: 90%;
     margin: 1rem;
   }
-  h1-direita{
+  h1-direita {
     font-size: 150%;
     margin: auto;
   }
-  h1-esquerda{
+  h1-esquerda {
     font-size: 150%;
     margin: auto;
   }
 
-  h2-direita{
+  h2-direita {
     font-size: 90%;
     margin: 1rem;
   }
-  h2-esquerda{
+  h2-esquerda {
     font-size: 90%;
     margin: 1rem;
   }
 
-input#email {
-  margin-top: 96px;
-  margin-right: 33%;
-  padding: 10px;
-  height: 57px;
-  min-width: 22px;
-}
-button#submit{
-  margin-left: 70%;
-    margin-top: -32%;
+  input#email {
+    margin-top: 96px;
+    margin-right: 33%;
+    padding: 10px;
+    height: 57px;
+    min-width: 22px;
+  }
+  button#submit {
+    margin-left: 68%;
+    margin-top: -23%;
     font-size: 14px;
-    margin-right: 104px;
+   margin-right: 1px;
     padding: 7px 17px;
-}
-input#inputIdiomaSuperior {
-  margin-left: -64px;
-  height: 29px;
-}
-img{
-  margin-left: -42px;
+  }
+  input#inputIdiomaSuperior {
+    margin-left: -64px;
+    height: 29px;
+  }
+  img {
+    margin-left: -42px;
     margin-top: -13px;
     height: 87px;
-}
+  }
 }
